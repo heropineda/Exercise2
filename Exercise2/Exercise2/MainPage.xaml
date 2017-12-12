@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Exercise2" Title="Home"
+             x:Class="Exercise2.MainPage">
+
+	
+
+    <StackLayout>
+
+        <SearchBar Placeholder="Search"></SearchBar>
+        <BoxView BackgroundColor="Gold"></BoxView>
+        <Label Text="Welcome to Xamarin.Forms!" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+        <Switch></Switch>
+        <Entry Placeholder="e.g. 0911 1189312"></Entry>
+        <Stepper></Stepper>
+        <TimePicker></TimePicker>
+        <Slider></Slider>
+        <DatePicker></DatePicker>
+        
+        
+        <Button Text="Click Me!"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="Button_sOnclick"/>
+        
+        </StackLayout>
+
+
+
+</ContentPage>
